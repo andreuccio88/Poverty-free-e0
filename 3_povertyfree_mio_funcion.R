@@ -144,7 +144,7 @@ Res_Total$LE <- as.numeric(Res_Total$LE)
 Res_Total$Poverty_free_LE <- as.numeric(Res_Total$Poverty_free_LE)
 
 
-plot <- Res_Total %>% ggplot(aes(Year,LE,col="LE"))+geom_line(size=1)+geom_line(aes(Year,Poverty_free_LE,col="PFLE"),size=1)+
+plot <- Res_Total %>% ggplot(aes(Year,LE,col="LE"))+geom_line(size=1)+geom_line(aes(Year,Poverty_free_LE,color="PFLE"),size=1)+
   labs(y= "Value")+
   facet_wrap(~Country)+theme_minimal(18)
 
