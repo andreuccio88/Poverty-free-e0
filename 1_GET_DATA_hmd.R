@@ -5,8 +5,8 @@ library(HMDHFDplus) # version 1.1.8
 
 
 
-myusername <- "andrea.nigri@student.unisi.it"
-mypassword <- "Dottorato17"
+myusername <- "andrea.nigri88@gmail.com"
+mypassword <- "Dottorato!7"
 
 
 country <- c("DNK","ITA","BGR","DEUTNP","HUN")
